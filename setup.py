@@ -15,9 +15,9 @@ setup(
     author = 'JK Laiho',
     author_email = 'jklaiho@iki.fi',
     url = 'https://github.com/jklaiho/keratin',
-    packages = ['keratin', 'keratin.tests'],
+    packages = ['keratin'],
     zip_safe = False,
-    test_suite = 'keratin.tests',
+    test_suite = 'tests',
     entry_points = {
         'console_scripts': ['keratin = keratin.cli:main']
     },
